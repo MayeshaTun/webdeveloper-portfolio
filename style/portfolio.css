@@ -91,12 +91,13 @@ nav a{
     color: #757575;
     width: 585px;
     font-size: 15px;
-    font-family: Open Sans;
-    font-style: normal;
     font-weight: 400;
 }
 /*main section styles*/
-
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 
 
 /*about section styles*/
@@ -104,5 +105,22 @@ nav a{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px 0;
+    margin: 130px 0;
+}
+.about-info-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-weight: 400;
+    
+}
+.info-description{
+    color: #474747;
+    font-weight: 600;
+    
 }
